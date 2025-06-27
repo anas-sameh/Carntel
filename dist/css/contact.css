@@ -1,0 +1,403 @@
+    
+/*-------Contact-Us--------start---*/
+
+.Contact-Us{
+    height: 100vh !important;
+    background-image: url(../imges/contact-imges/banner-12.jpg);
+    background-color: #50250c;
+    background-size: cover;
+    background-position: center  ;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+.Contact-Us .title{
+    position: absolute;
+    bottom: 95px;
+    left: 110px;
+}
+.Contact-Us .title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    font-style: italic;
+}
+.Contact-Us .title::before {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #ff6100;
+    right: -30px;
+}
+.Contact-Us .title::after {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #fff;
+    right: -35px;
+}
+
+.Contact-Us::after {
+content: "";
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+position: absolute;
+z-index: -1;
+opacity: 0.4;
+background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 32%, rgb(255, 97, 0) 100%);
+}
+.Contact-Form  {
+    margin-top: 100px;
+    }
+    .Contact-Form  .get-in .text-img {
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    }
+    .Contact-Form  .get-in .text-img h2 {
+        font-size: 200px;
+        line-height: 160px;
+        display: inline-table;
+        color: #000;
+        margin: 0px;
+        font-weight: 700;
+    
+    }
+    .Contact-Form  .get-in .text-img img {
+        position: absolute;
+        top: 50%;
+        left: -70px;
+        width: 100%;
+        mix-blend-mode: lighten;
+        transform: translateY(-50%);
+    }
+    
+    .Contact-Form  .get-in .deatiles {
+        margin-left: 100px;
+        margin-top: 40px;
+        display: flex;
+    }
+    
+    .Contact-Form  .get-in  ul {
+        list-style-type: none;
+        margin-bottom: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .Contact-Form  .get-in  ul li {
+        font-size: 14px;
+        padding: 20px;
+        font-size: 14px;
+        color: #18191d;
+        cursor: auto;
+    }
+    
+    .Contact-Form  .get-in  ul .l2 {
+        margin-left: 15px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .Contact-Form  .get-in  .icon span {
+        font-size: 44px;
+        color: #ff6100;
+        display: block;
+        padding-top: 30px;
+    }
+    .Contact-Form  .get-in .icons {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .Contact-Form  .get-in .head  {
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    .Contact-Form  .get-in .head h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: #18191d;
+    }
+    .Contact-Form  .get-in .icons span {
+        background-color: #ff6100;
+        color: #fff;
+        width: 46px;
+        height: 46px;
+        display: flex;
+        border-radius: 10px 10px 0px 10px;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        position: relative; 
+        overflow: hidden;
+        margin-left: 5px;
+    }
+    .Contact-Form .form {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        padding: 80px 0px 80px 60px;
+        background-color: #f6f6f5;
+        border-radius: 100px 0px 0px 100px;
+    }
+    .Contact-Form .form .text-haed {
+        margin-bottom: 50px;
+    }
+    .Contact-Form .form .text-haed h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    
+        line-height: 1.2;
+        color: #18191d
+    
+    }
+    .Contact-Form .form .text-haed p {
+        color: #565656;
+    
+        line-height: 1.7;
+        font-size: 18px;
+    }
+    .Contact-Form .form .forms .label {
+        margin-bottom: 1.5rem ;
+    }
+    .Contact-Form .form .forms .input-2{
+        height: 56px;
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 0px;
+        border-radius: 40px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .Contact-Form .form .forms .input{
+        height: 56px;
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 0px;
+        border-radius: 40px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .Contact-Form .form .forms .text-area {
+        padding-top: 15px;
+        height: 180px;
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 0px;
+        border-radius: 40px;
+        font-size: 16px;
+        resize: none;
+        width: 100%;
+    }
+    .Contact-Form .form .btn-form {
+        padding: 15px 0;
+    }
+    .Contact-Form .form  .btn-1:hover {
+        border-radius: 20px;
+        color: #fff;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0,);
+        border-bottom: 2px solid #ff6100;
+    }
+    .Contact-Form .form .btn-1 {
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        background-color: #000;
+        font-family: "Work Sans", sans-serif;
+        cursor: pointer;
+        align-items: center;
+        padding: 5px 15px;
+        transition:all 0.5s;
+    }
+    
+
+/*-------Contact-Us--------end---*/
+
+/*-------map---------start---*/
+
+.map {
+    margin-bottom: 80px;
+    margin-top: 100px;
+    
+}
+.map .location .maps {
+    margin: 0px 150px;
+    height: 600px;
+    width: 80%;
+    border-radius: 100px;
+}
+.map .parent {
+    display: flex;
+    padding: 0 200px;
+    justify-content: center;
+}
+
+.map .deatiles {
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+}
+.map .head {
+    margin-left: 500px;
+}
+.map  ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+    margin: 0;
+    padding: 0;
+}
+.map .deatiles .icon span {
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+} 
+
+.map  ul li {
+    font-size: 14px;
+    padding: 20px;
+    font-size: 14px;
+    color: #18191d;
+    cursor: auto;
+    padding-left: 0px;
+}
+
+.map  ul .l2 {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.map  .icon span {
+    font-size: 44px;
+    color: #ff6100;
+    display: block;
+    padding-top: 30px;
+}
+.map .icons {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.map .head  {
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.map .head h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #18191d;
+}
+.map .icons span {
+    background-color: #ff6100;
+    color: #fff;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    border-radius: 10px 10px 0px 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: relative; 
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+/*-------map---------end---*/
+
+@media (max-width: 600px) {
+  .Contact-Us {
+    height: 80vh !important;
+    background-position:top;
+    background-size:cover;
+    
+  }
+  .Contact-Us .title {
+    left: 20px;
+    bottom: 10px;
+    right: 20px;
+    width: auto;
+  }
+  .Contact-Us .title h2 {
+    font-size: 32px;
+    line-height: 1.1;
+    word-break: break-word;
+  }
+  .Contact-Us .title::before,
+  .Contact-Us .title::after {
+    display: none;
+  }
+  .Contact-Form .get-in .text-img h2 {
+    font-size: 48px;
+    line-height: 1.1;
+    word-break: break-word;
+    text-align: left;
+  }
+  .Contact-Form .get-in .text-img {
+    margin-top: 30px;
+  }
+  .Contact-Form .get-in .text-img img {
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .Contact-Form .get-in .deatiles,
+  .Contact-Form .get-in .icons,
+  .Contact-Form .get-in .head {
+    margin-left: 0 !important;
+  }
+  .Contact-Form .form {
+    margin-top: 30px;
+    padding: 30px 10px;
+    border-radius: 30px 0 0 30px;
+  }
+  .Contact-Form  .get-in  .icon span {
+    font-size: 25px;
+  }
+  .map {
+    margin: 30px 0 30px 0;
+  }
+  .map .location {
+    margin-left: 10px !important;
+
+  }
+  .map .location .maps {
+    margin: 0 0;
+    width: 95vw;
+    height: 250px;
+    border-radius: 30px;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .map .parent {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .map .deatiles {
+    margin-left: 20px;
+    text-align: left;
+  }
+  .map .head {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    
+  }
+  .Contact-Form .form .forms .text-area::placeholder {
+    padding-top: 15px;
+  }
+}

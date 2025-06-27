@@ -1,0 +1,149 @@
+
+/*-------Luxury-Car-------start---*/
+
+.Grid{
+    height: 100vh !important;
+    background-image: url(../imges/blog-images/banner-1.jpg);
+    background-color: #50250c;
+    background-size: cover;
+    background-position: center  ;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+.Grid .title{
+    position: absolute;
+    bottom: 95px;
+    left: 110px;
+}
+.Grid .title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    font-style: italic;
+}
+.Grid .title::before {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #ff6100;
+    right: -30px;
+}
+.Grid .title::after {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #fff;
+    right: -35px;
+}
+
+.Grid::after {
+content: "";
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+position: absolute;
+z-index: -1;
+opacity: 0.4;
+background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 32%, rgb(255, 97, 0) 100%);
+}
+/*-------Luxury-Car-------end---*/
+
+
+/*-------Rental-News-------start---*/
+
+.Rental-News {
+margin-top: 100px;
+
+}
+.Rental-News .card-parent {
+display: flex;
+justify-content:center;
+margin-bottom: 50px;
+}
+.Rental-News .card {
+border: none;
+position: relative;
+margin-right: 50px;
+}
+.Rental-News .card .img {
+position: relative;
+border-radius: 100px 100px 0px 0px;
+overflow: hidden;
+height: 500px;
+}
+.Rental-News .card .date {
+background-color: #fff;
+border-radius: 20px 20px 0px 0px;
+border-bottom: 3px solid #ff6100;
+padding: 20px 10px;
+width: 70px;
+position: absolute;
+left: 10px;
+bottom: 20px;
+text-align: center;
+}
+.Rental-News .card  .text {
+width: 290px;
+position: absolute;
+padding: 0 10px;
+right: 0px;
+bottom: 20px;
+}
+
+.Rental-News .card  .text p {
+color: #ff6100;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.Rental-News .card  .text h3 {
+color: #fff;
+font-weight: 600;
+font-size: 22px;
+
+text-transform: capitalize;
+line-height: 1.2;
+
+}
+
+.Rental-News .card .data {
+position: absolute;
+left: 0px;
+bottom: 0px;
+display: flex;
+align-items: center;
+padding: 230px 30px 30px 30px;
+width: 100%;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 73%);
+}
+
+/*-------Rental-News-------end---*/
+@media (max-width: 600px) {
+    .Grid {
+      height: 80vh !important;
+      background-position:top;
+      background-size:cover;
+      
+    }
+    .Grid .title {
+      left: 20px;
+      bottom: 10px;
+      right: 20px;
+      width: auto;
+    }
+    .Grid .title h2 {
+      font-size: 32px;
+      line-height: 1.1;
+      word-break: break-word;
+    }
+}

@@ -1,0 +1,440 @@
+/* ===== PARTICLE EFFECTS CSS ===== */
+
+/* ===== PARTICLE CONTAINER ===== */
+.particle-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== PARTICLE STYLES ===== */
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 97, 0, 0.6);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: particleFloat 3s ease-in-out infinite;
+}
+
+.particle:nth-child(odd) {
+    background: rgba(255, 140, 0, 0.6);
+    animation-duration: 4s;
+}
+
+.particle:nth-child(3n) {
+    background: rgba(255, 69, 0, 0.6);
+    animation-duration: 5s;
+}
+
+.particle:nth-child(4n) {
+    background: rgba(255, 165, 0, 0.6);
+    animation-duration: 6s;
+}
+
+/* ===== PARTICLE ANIMATIONS ===== */
+@keyframes particleFloat {
+    0% {
+        transform: translateY(100vh) translateX(0) scale(0);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(90vh) translateX(10px) scale(1);
+    }
+    90% {
+        opacity: 1;
+        transform: translateY(10vh) translateX(-10px) scale(1);
+    }
+    100% {
+        transform: translateY(0) translateX(0) scale(0);
+        opacity: 0;
+    }
+}
+
+/* ===== RIPPLE EFFECT ===== */
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(0);
+    animation: rippleEffect 0.6s linear;
+    pointer-events: none;
+}
+
+@keyframes rippleEffect {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* ===== PAGE TRANSITION ===== */
+.page-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff6100, #ff8c00);
+    z-index: 9999;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+
+.page-transition.active {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* ===== SNOWFLAKE EFFECT ===== */
+.snowflake {
+    position: fixed;
+    top: -10px;
+    z-index: 1000;
+    user-select: none;
+    cursor: default;
+    animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(-10px) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* ===== CONFETTI EFFECT ===== */
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: #ff6100;
+    z-index: 1000;
+    animation: confettiFall 3s linear infinite;
+}
+
+.confetti:nth-child(odd) {
+    background: #ff8c00;
+}
+
+.confetti:nth-child(3n) {
+    background: #ff4500;
+}
+
+.confetti:nth-child(4n) {
+    background: #ffa500;
+}
+
+@keyframes confettiFall {
+    0% {
+        transform: translateY(-10px) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+/* ===== SPARKLE EFFECT ===== */
+.sparkle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    animation: sparkle 1.5s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1) rotate(180deg);
+        opacity: 1;
+    }
+}
+
+/* ===== BUBBLE EFFECT ===== */
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    animation: bubbleFloat 4s ease-in-out infinite;
+}
+
+@keyframes bubbleFloat {
+    0% {
+        transform: translateY(100vh) scale(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(-100px) scale(1);
+        opacity: 0;
+    }
+}
+
+/* ===== FIREWORK EFFECT ===== */
+.firework {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    animation: firework 2s ease-out forwards;
+}
+
+@keyframes firework {
+    0% {
+        transform: translateY(100vh) scale(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(50vh) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0) scale(0);
+        opacity: 0;
+    }
+}
+
+/* ===== MAGIC DUST EFFECT ===== */
+.magic-dust {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #ffd700;
+    border-radius: 50%;
+    animation: magicDust 3s ease-in-out infinite;
+}
+
+@keyframes magicDust {
+    0% {
+        transform: translateY(0) translateX(0) scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-20px) translateX(10px) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-40px) translateX(20px) scale(0);
+        opacity: 0;
+    }
+}
+
+/* ===== RAIN EFFECT ===== */
+.rain-drop {
+    position: fixed;
+    width: 2px;
+    height: 20px;
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.8));
+    animation: rain linear infinite;
+}
+
+@keyframes rain {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/* ===== STAR EFFECT ===== */
+.star {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 6px solid #ffd700;
+    animation: starTwinkle 2s ease-in-out infinite;
+}
+
+.star::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -3px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 6px solid #ffd700;
+    transform: rotate(70deg);
+}
+
+.star::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -3px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 6px solid #ffd700;
+    transform: rotate(-70deg);
+}
+
+@keyframes starTwinkle {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+/* ===== HEART EFFECT ===== */
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ff6100;
+    transform: rotate(45deg);
+    animation: heartBeat 1s ease-in-out infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ff6100;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: -10px;
+}
+
+@keyframes heartBeat {
+    0%, 100% {
+        transform: rotate(45deg) scale(1);
+    }
+    50% {
+        transform: rotate(45deg) scale(1.1);
+    }
+}
+
+/* ===== CLOUD EFFECT ===== */
+.cloud {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    animation: cloudFloat 8s ease-in-out infinite;
+}
+
+.cloud::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+
+.cloud::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+
+@keyframes cloudFloat {
+    0%, 100% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    20%, 80% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(calc(100vw + 100px));
+        opacity: 0;
+    }
+}
+
+/* ===== RESPONSIVE PARTICLE EFFECTS ===== */
+@media (max-width: 768px) {
+    .particle {
+        display: none;
+    }
+    
+    .snowflake,
+    .confetti,
+    .rain-drop {
+        display: none;
+    }
+    
+    .cloud {
+        animation-duration: 4s;
+    }
+}
+
+/* ===== PERFORMANCE OPTIMIZATIONS ===== */
+.particle-container {
+    will-change: transform;
+}
+
+.particle,
+.snowflake,
+.confetti,
+.rain-drop {
+    will-change: transform, opacity;
+}
+
+/* ===== ACCESSIBILITY ===== */
+@media (prefers-reduced-motion: reduce) {
+    .particle,
+    .snowflake,
+    .confetti,
+    .rain-drop,
+    .cloud,
+    .star,
+    .heart,
+    .bubble,
+    .sparkle,
+    .magic-dust,
+    .firework {
+        animation: none;
+        display: none;
+    }
+} 

@@ -1,0 +1,797 @@
+/*-------about-us------start---*/
+.about-us {
+    height: 100vh !important;
+    background-image: url(../imges/about-imges/banner-10.jpg);
+    background-color: #50250c;
+    background-size: cover;
+    background-position: center  ;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+.about-us .title{
+    position: absolute;
+    bottom: 95px;
+    left: 110px;
+}
+.about-us .title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.about-us .title::before {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #ff6100;
+    right: -30px;
+}
+.about-us .title::after {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #fff;
+    right: -35px;
+}
+
+.about-us::after {
+content: "";
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+position: absolute;
+z-index: -1;
+opacity: 0.4;
+background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 32%, rgb(255, 97, 0) 100%);
+}
+/*-------about-us------end---*/
+
+/*-------Wide Range---start---*/
+.Wide-Range .head-text {
+    text-align: center;
+}
+.Wide-Range {
+    margin-top: 200px;
+}
+.Wide-Range .head-text span {
+    padding: 0px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #ff6100;
+    position: relative;
+    letter-spacing: 2px;
+}
+.Wide-Range .head-text span::before {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    right: 0px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Wide-Range .head-text span::after {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    left: 0px;
+    bottom: 0px;
+    font-weight: 400;
+}
+
+.Wide-Range .head-text h2 {
+    color: #18191d;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.Wide-Range .card {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #f4f5f7;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    color: #565656;
+    border: none;
+}
+.Wide-Range .card::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6100;
+    transition: transform 1s ease-in-out;
+}
+
+.Wide-Range .card::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 2px;
+    height: 30px;
+    background-color: #ff6100;
+    transition: transform 1s ease-in-out;
+    
+}
+.Wide-Range .card .card-img {
+    text-align: center;
+    margin: 0px auto 10px;
+}
+.Wide-Range .card .card-img img {
+    height: 40px;
+    width: 40px;
+    margin-left: 100px;
+}
+.Wide-Range .card span {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ff6100;
+}
+.Wide-Range .card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #18191d;
+    margin-bottom: 0px;
+    line-height: 1.2
+}
+/*-------Wide Range---end---*/
+
+/*-------Steps-------start---*/
+
+.Steps {
+    margin-top: 150px;
+}
+.Steps .parent {
+    display: flex;
+}
+.Steps .car-img {
+    padding-right: 50px;
+    background-color: #f4f5f7;
+}
+.Steps .car-img .img img {
+    border-radius: 0px 0px 100px 0px;
+    width: 100%;
+    height: 952px;
+}
+
+.Steps .text-head {
+    margin-top: 120px;
+}
+.Steps .text-head span {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #ff6100;
+    position: relative;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.Steps .text-head span::before {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    left: -15px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Steps .text-head span::after {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    right: -15px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Steps .text-head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+
+    line-height: 1.2;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.Steps .cards {
+    padding: 0px;
+    background-color: #f4f5f7;
+}
+
+.Steps .cards .card  {
+    border: none;
+    padding: 0 10px;
+    background-color: #f4f5f7;
+}
+.Steps .cards .num {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    padding: 0px 0px 10px;
+    margin-bottom: 5px ;
+}
+.Steps .cards .num span {
+font-size: 50px;
+font-weight: 700;
+color: #ff6100;
+}
+.Steps .cards .card .card-detiles {
+border-radius: 30px 30px 0px 0px;
+padding: 30px 30px 10px 30px;
+background-color: #fff;
+position: relative;
+z-index: 1;
+}
+
+.Steps .cards .card .card-detiles h3 {
+    font-size: 18px;
+
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #18191d;
+}
+.Steps .cards .card .card-detiles p {
+color: #565656;
+font-family: "Work Sans", sans-serif;
+line-height: 1.7;
+font-weight: 400
+}
+
+/*-------Steps-------end---*/
+
+
+
+/*-------Customers-------end---*/
+
+.Customers {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Customers .head-text {
+        margin-bottom: 80px;
+        display: inline-block;
+        text-align: left;
+    }
+    .Customers .head-text span {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        color: #ff6100;
+        position: relative;
+        letter-spacing: 2px;
+        margin-left: 12px;
+    }
+    .Customers .head-text span::before {
+        position: absolute;
+        content: "-";
+        font-size: 14px;
+        color: #ff6100;
+        left: -12px;
+        bottom: 0px;
+        font-weight: 400;
+    }
+    .Customers .head-text span::after {
+        position: absolute;
+        content: "-";
+        font-size: 14px;
+        color: #ff6100;
+        right: -12px;
+        bottom: 0px;
+        font-weight: 400;
+    }
+    .Customers .head-text h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #000;
+    
+        line-height: 1.2;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+
+    .Customers .btns {
+        display: inline-block;
+    }
+
+    .Customers .btns button {
+        background-color: #ff6100;
+        border: none;
+        padding: 2px 10px;
+        margin-right: 3px;
+        transition: all 0.5s;
+    }
+    .Customers .btns .icon {
+        color: #fff;
+    }
+    .Customers .btns button:hover {
+        background-color: #000;
+    }
+    .Customers .card-parent {
+        display: flex;
+    }
+    .Customers .card-parent .card {
+        text-align: center;
+        position: relative;
+        padding: 25px 25px 50px 25px;
+        padding: 20px 0px 0px 25px;
+        background-color: #fff;
+        border: 1px solid #f4f4f4;
+        border-radius: 40px 40px 40px 40px;
+    
+    }
+    .Customers .card .card-text {
+        text-align: center ;
+    
+    }
+    .Customers .card-parent h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #18191d;
+    
+        line-height: 1.2;
+    }
+    .Customers .card-parent p {
+    color: #999999;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.Customers .card-parent .card-img {
+    overflow: hidden; 
+    width: 100%;
+    object-fit: cover;
+    margin-top: -30px;
+    transition: all 0.7s;
+    
+}
+.Customers .card-parent .card:hover .card-img {
+    transform: scale(0.9);
+}
+.Customers .card-parent .card-img img {
+    border-radius: 60px 0px 60px 60px;
+    padding: 30px;
+    margin: 0;
+}
+
+/*-------Customers-------end---*/
+
+/*-------Say-------start---*/
+    .Say {
+        margin-top: 80px;
+        padding-top: 150px;
+        background-color: #101010;
+        padding-bottom: 120px;
+    }
+    .Say .head-text {
+        margin-left: 120px;
+        margin-bottom: 80px;
+        display: inline-block;
+    }
+    .Say .head-text span {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        color: #ff6100;
+        position: relative;
+        letter-spacing: 2px;
+        margin-left: 12px;
+    }
+    .Say .head-text span::before {
+        position: absolute;
+        content: "-";
+        font-size: 14px;
+        color: #ff6100;
+        left: -12px;
+        bottom: 0px;
+        font-weight: 400;
+    }
+    .Say .head-text span::after {
+        position: absolute;
+        content: "-";
+        font-size: 14px;
+        color: #ff6100;
+        right: -12px;
+        bottom: 0px;
+        font-weight: 400;
+    }
+    .Say .head-text h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #fff;
+    
+        line-height: 1.2;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .Say .btns {
+        display: inline-block;
+        margin-left: 750px;
+    }
+
+    .Say .btns button {
+        background-color: #ff6100;
+        border: none;
+        padding: 2px 10px;
+        margin-right: 3px;
+        transition: all 0.5s;
+    }
+    .Say .btns .icon {
+        color: #fff;
+    }
+    .Say .btns button:hover {
+        background-color: #000;
+    }
+    .Say .cards {
+        margin-left: 120px;
+        display: flex;
+    }
+    .Say .cards .card {
+        background-color: transparent;
+    }
+    .Say .cards .card-1 {
+        position: relative;
+        display: flex;
+        margin-bottom: 70px;
+    }
+    .Say .cards .card-1 .person-img {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50px 50px 0px 50px;
+        margin-right: 30px;    
+    }
+    .Say .cards .card-1 .text h3 {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 6px;
+        font-weight: 600;
+    
+    }
+    .Say .cards .card-1  p {
+        color: #fff;
+        opacity: 0.6;
+        color: #fff;
+        opacity: 0.6;
+    }
+    .Say .cards .card-1 .img {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        opacity: 0.1;
+    }
+    .Say .cards .card-1 .img img {
+        width: 70px;
+    }
+    .Say .cards .card-1-text  p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        opacity: 0.6;
+    }
+    .Say .cards .card-1-text  .icons span {
+        color: #ff6100 ;
+    }
+
+
+/*-------Say-------end---*/
+
+
+
+
+/*-------Assistance-------start---*/
+
+.Assistance {
+    margin-top: 120px;
+}
+
+
+.Assistance .parent {
+    display: flex;
+}
+    .Assistance-1 {
+    padding-left: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    .Assistance-1 .text-head h2 {
+        font-size: 28px;
+    }
+    .Assistance-1 .details p {
+        text-align: left;
+        margin-left: 20px;
+    }
+    .Assistance-1 .details ul {
+        display: inline-block;
+        text-align: left;
+        margin-right: 350px !important;
+    }
+    .Assistance-1 .details ul li {
+        font-size: 16px;
+    }
+    .Assistance-2 {
+        background-image: url(../imges/about-imges/ab-us.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        position: relative;
+        z-index: -1;
+    }
+    .Assistance-2::after {
+        content: "";
+        width: 245px;
+        height: 600px;
+        position: absolute;
+        background-color: #ff6100;
+        mix-blend-mode: multiply;
+        transform: skew(-12deg);
+        right: 65px;
+        top: 0px;
+        z-index: 4;
+    }
+
+    .Assistance-2::before {
+        content: "";
+        width: 245px;
+        height: 600px;
+        position: absolute;
+        background-color: #ff6100;
+        mix-blend-mode: multiply;
+        transform: skew(-12deg);
+        right: 184px;
+        bottom: 0px;
+        z-index: 3;
+    }
+    .Assistance-2 .text h2 {
+        font-size: 80px;
+        line-height: 56px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: uppercase;
+        font-style: italic;
+    
+        position: absolute;
+        bottom: 0;
+        right: 12px;
+        z-index: 5;
+    }
+    .Assistance-2 .icon {
+        background-color: #fff;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 0px 20px 20px 0px;
+        position: absolute;
+        left: -10px;
+        bottom: 30px;
+    }
+    .Assistance-2 .icon span {
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    }
+    .Assistance-2 .date {
+        text-align: right;
+        position: absolute;
+        left: -300px;
+        bottom: 55px ;
+    }
+    .Assistance-2 .date h2 {
+        font-size: 100px;
+        color: #ff6100;
+        line-height: 70px;
+        font-weight: 900;
+        margin-bottom: 0px;
+    
+    }
+    .Assistance-2 .date span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18191d;
+    letter-spacing: 2px;
+    }
+
+    /*-------Assistance-------end---*/
+
+/*-------Responsive Styles for max-width: 991.98px-------start---*/
+@media (max-width: 991.98px) {
+    /* About Us Section */
+    .about-us {
+        height: 60vh !important;
+    }
+    .about-us .title {
+        bottom: 50px;
+        left: 50px;
+    }
+    .about-us .title h2 {
+        font-size: 40px;
+    }
+
+    /* Wide Range Section */
+    .Wide-Range {
+        margin-top: 100px;
+    }
+    .Wide-Range .head-text h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .Wide-Range .card {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .Wide-Range .card .card-img img {
+        margin-left: 0;
+    }
+    .Wide-Range .card span {
+        font-size: 28px;
+    }
+    .Wide-Range .card h3 {
+        font-size: 16px;
+    }
+
+    /* Steps Section */
+    .Steps {
+        margin-top: 80px;
+    }
+    .Steps .parent {
+        flex-direction: column;
+    }
+    .Steps .car-img {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .Steps .car-img .img img {
+        height: 400px;
+        border-radius: 0px 0px 50px 0px;
+    }
+    .Steps .text-head {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .Steps .text-head h2 {
+        font-size: 28px;
+    }
+    .Steps .cards .card {
+        margin-bottom: 20px;
+    }
+    .Steps .cards .num span {
+        font-size: 36px;
+    }
+    .Steps .cards .card .card-detiles {
+        padding: 20px;
+    }
+
+    /* Customers Section */
+    .Customers {
+        margin-top: 60px;
+    }
+    .Customers .head-text {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .Customers .head-text h2 {
+        font-size: 28px;
+    }
+    .Customers .btns {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .Customers .card-parent {
+        flex-direction: column;
+    }
+    .Customers .card-parent .card {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .Customers .card-parent .card-img img {
+        padding: 20px;
+    }
+
+    /* Say Section */
+    .Say {
+        margin-top: 60px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    .Say .head-text {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .Say .head-text h2 {
+        font-size: 28px;
+    }
+
+    .Say .cards {
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Say .cards .card-1 {
+        margin-bottom: 30px;
+        margin:     ;
+    }
+    .Say .cards .card-1 .person-img {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .Say .cards .card-1 .text h3 {
+        font-size: 16px;
+    }
+    .Say .cards .card-1 .img {
+        right: 20px;
+        top: 20px;
+    }
+    .Say .cards .card-1 .img img {
+        width: 50px;
+    }
+
+    /* Assistance Section */
+    .Assistance {
+        margin-top: 80px;
+    }
+    .Assistance .parent {
+        flex-direction: column;
+    }
+    .Assistance-1 {
+        padding-left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .Assistance-1 .text-head h2 {
+        font-size: 28px !important;
+    }
+    .Assistance-1 .details p {
+        text-align: left;
+    }
+    .Assistance-1 .details ul {
+        display: inline-block;
+        text-align: left;
+        margin-right: 0 !important  ;
+    }
+    
+    .Assistance-1 .details ul li {
+        font-size: 16px;
+    }
+
+    .Assistance-2  {
+        display: none;
+
+    }
+
+}
+/*-------Responsive Styles for max-width: 991.98px-------end---*/

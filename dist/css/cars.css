@@ -1,0 +1,500 @@
+/*-------Luxury-Car-------start---*/
+
+.Luxury-Car {
+    height: 100vh !important;
+    background-image: url(../imges/cars-imges/banner-6.jpg);
+    background-color: #50250c;
+    background-size: cover;
+    background-position: center  ;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+.Luxury-Car .title{
+    position: absolute;
+    bottom: 95px;
+    left: 110px;
+}
+.Luxury-Car .title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    font-style: italic;
+}
+.Luxury-Car .title::before {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #ff6100;
+    right: -30px;
+}
+.Luxury-Car .title::after {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #fff;
+    right: -35px;
+}
+
+.Luxury-Car::after {
+content: "";
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+position: absolute;
+z-index: -1;
+opacity: 0.4;
+background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 32%, rgb(255, 97, 0) 100%);
+}
+/*-------Luxury-Car-------end---*/
+
+
+/*-------Vehicle------start---*/
+
+
+.Vehicle .head-text {
+    text-align: center;
+}
+.Vehicle .head-text span {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #ff6100;
+    position: relative;
+    letter-spacing: 2px;
+}
+.Vehicle .head-text span::before {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    left: -15px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Vehicle .head-text span::after {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    right: -15px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Vehicle .head-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+
+    line-height: 1.2;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+.Vehicle .cards {
+    display: flex;
+}
+.Vehicle .card {
+    border: none;
+    padding: 0 10px;
+}
+.Vehicle .card .card-text {
+    padding: 10px 15px;
+    background-color: #f4f5f7;
+}
+.Vehicle .card .card-text h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: #000;
+
+    line-height: 1.2;
+}
+.Vehicle .card  .card-img {
+    overflow: hidden;
+    border-radius: 100px 100px 0px 0px;
+} 
+.Vehicle .card .icon img {
+    width: 25% ;
+    display: inline;
+    filter: brightness(0) saturate(100%) invert(40%) sepia(97%) saturate(3017%) hue-rotate(6deg) brightness(108%) contrast(103%);
+    margin-right: 5px;
+}
+.Vehicle .card ul {
+    list-style: none;
+    display: flex;
+}
+.Vehicle .card .list-1 ul li {
+    margin: 0 5px;
+    width: 80px;
+}
+.Vehicle .card .list-2 ul li {
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #ff6100;
+    margin-right: 15px;
+}
+.Vehicle .card .list-2 ul .li-1-2 {
+    color: #565656;
+    text-decoration: line-through;
+    position: relative;
+}
+.Vehicle .card .list-2 ul .li-2 {
+    position: relative;
+}
+.Vehicle .card .list-2 ul .li-1::before {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #565656;
+    left: -12px;
+    bottom: 0px;
+    font-weight: 400; 
+}
+.Vehicle .card .list-2 ul .li-2::before {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #565656;
+    left: -12px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Vehicle .card .price {
+    position: absolute;
+    padding: 20px 10px;
+    text-align: center;
+    right: 30px;
+    bottom: 142px;
+    border-bottom: 3px solid #ff6100;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #fff;
+}
+.Vehicle .card .price h2 {
+    color: #ff6100;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.Vehicle .card .price span {
+    display: block;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.Vehicle .card .price button {
+    background-color: #000;
+    padding: 5px 18px;
+    color: #fff;
+    border: none;
+    transition: all 0.5s;
+}
+.Vehicle .card .price button:hover {
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0,);
+    border-bottom: 3px solid  #ff6100;
+}
+.Vehicle .buttons {
+    text-align: center;
+
+}
+.Vehicle .buttons button {
+    background-color: #ff6100;
+    border: none;
+    padding: 2px 10px;
+    margin-right: 3px;
+    transition: all 0.5s;
+}
+.Vehicle .buttons .icon {
+    color: #fff;
+    margin-top: 2px;
+    
+    
+}
+.Vehicle .buttons button:hover {
+    background-color: #000;
+}
+
+.taps {
+text-align: center;
+margin-right: 250px;
+margin-top: 50px;
+
+}
+.Pagination {
+display: inline-block;
+
+}
+.Pagination .page-item {
+margin: 0 3px;
+}
+.Pagination .page-link {
+color: #000;
+border-radius: 10px;
+width: 46px;
+height: 46px;
+font-size: 18px;
+line-height: 46px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f4f5f7;
+border: none;
+}
+.Pagination .l-2 {
+background-color: #ff6100;
+color: #fff;
+
+}
+/*-------Vehicle------end---*/
+
+
+/*-------Available-for------start---*/
+
+.Available-for {
+    background-color: #f6f6f5;
+    padding: 60px 0px;
+    border-radius: 0px 0px 60px 60px;
+}
+.Available-for .parent {
+    margin: auto;
+    width: 1320px;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    color: #565656;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.Available-for .form-control  {
+    width: 100%;
+    height: 34px;
+    padding: 2px 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: inherit;
+}
+.Available-for .labels-form .text-1  {
+margin-left: 49px;
+}
+.Available-for .labels-form .text-3 {
+    margin-left: 32px;
+}
+.Available-for .btn-form {
+    margin-top: 15px;
+}
+.Available-for  .btn-form {
+    text-align: center;
+    padding: 15px 0;
+}
+.Available-for  .btn-1:hover {
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0,);
+    border-bottom: 2px solid #ff6100;
+}
+.Available-for  .btn-1 {
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    background-color: #000;
+    font-family: "Work Sans", sans-serif;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 15px;
+    transition:all 0.5s;
+}
+.formes-labels-parent {
+    background-color: #fff;
+    border-radius: 0px 0px 25px 25px;
+}
+.formes-labels {
+    display: flex;
+}
+.formes-labels  .form-text-2-  {
+    width: 100%;
+    height: 34px;
+    padding: 2px 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: inherit;
+}
+.labels-form .labels {
+    color: #fff7f7;
+    font-size: 13px;
+    padding-bottom: 4px;
+    display: inline-block;
+    cursor: default;
+    color: #565656;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.formes-labels  .labels-form {
+    display: inline-block;
+    padding: 0 2px;
+}
+.labels-form .form-select {
+    color: #b9b9b9;
+    font-size: 14px;
+}
+.form-text- {
+    width: 100%;
+    height: 34px;
+    padding: 2px 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: inherit;
+}
+.formes-labels .input-date {
+    position: relative;
+}
+.formes-labels span {
+    cursor: pointer;
+    border-radius: 0px 6px 6px 0px;
+    height: 34px;
+    width: 34px;
+    border-color: #f0f0f0;
+    color: #b9b9b9;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    
+}
+.formes-labels-parent .text-1 {
+    padding-left: 22px;
+    color: #565656;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 14px;    
+}
+.formes-labels-parent .text-3 {
+    padding-left: 4px;
+    color: #565656;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 14px;
+}
+.formes-labels-parent .btn-form {
+    text-align: center;
+    padding: 15px 0;
+}
+.cars-form .formes-labels-parent  .btn-1:hover {
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0,);
+    border-bottom: 2px solid #ff6100;
+}
+.formes-labels-parent .btn-1 {
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    background-color: #000;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 15px;
+    transition:all 0.5s;
+}
+/*-------Available-for------end---*/
+
+/*-------Brands--------start---*/
+
+.Brands .car-brands-img {
+display: flex;
+}
+
+.Brands .car-brands-img {
+margin-top: 50px;
+border-bottom: 1px solid #ff6100;
+}
+.Brands .car-brands-img img {
+opacity: 30%;
+padding: 0 40px;
+}
+/*-------Brands--------end---*/
+
+/* Responsive Styles */
+
+@media (max-width: 991.98px) {
+    .Vehicle {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .Vehicle .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Vehicle .cards .card-p {
+        margin-bottom: 2rem;
+    }
+    .Vehicle .card {
+        position: relative;
+    }
+    .Vehicle .final_card {
+        margin-bottom: 0 !important;
+    }
+    .Vehicle .final_card .card {
+        padding-bottom: 0 !important;
+    }
+    .Available-for {
+        margin-top: 0 !important;padding-top: 0 !important;
+        border-radius: 0 !important ;
+        color: #fff !important;
+
+    }
+    .Available-for .parent {
+        width: auto;
+        flex-direction: column;
+    }
+    .formes-labels {
+        flex-direction: column;
+    }
+    .formes-labels .labels-form {
+        margin-bottom: 15px;
+    }
+    .Available-for .labels-form .text-1, .Available-for .labels-form .text-3 {
+        margin-left: 0;
+    }
+    .formes-labels-parent .text-1, .formes-labels-parent .text-3 {
+        padding-left: 0;
+    }
+    .Brands .car-brands-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Brands .car-brands-img img {
+        padding: 15px 20px;
+        width: 150px;
+    }
+}

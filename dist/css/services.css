@@ -1,0 +1,744 @@
+/*-------Our-Services------stat---*/
+
+.Our-Services {
+    height: 100vh !important;
+    background-image: url(../imges/services-imges/banner-13.jpg);
+    background-color: #50250c;
+    background-size: cover;
+    background-position: center  ;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+.Our-Services .title{
+    position: absolute;
+    bottom: 95px;
+    left: 110px;
+}
+.Our-Services .title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    font-style: italic;
+}
+.Our-Services .title::before {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #ff6100;
+    right: -30px;
+}
+.Our-Services .title::after {
+    top: 50%;
+    content: "";
+    width: 6px;
+    height: 40px;
+    transform: skew(-15deg) translateY(-50%);
+    position: absolute;
+    background-color: #fff;
+    right: -35px;
+}
+
+.Our-Services::after {
+content: "";
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+position: absolute;
+z-index: -1;
+opacity: 0.4;
+background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 32%, rgb(255, 97, 0) 100%);
+}
+
+/*-------Our-Services------end---*/
+
+
+/*--------Assistance------start---*/
+
+.Assistance {
+    margin-top: 120px;
+}
+
+
+.Assistance .parent {
+    display: flex;
+}
+    .Assistance-1 {
+    padding-left: 15px;
+    }
+    .Assistance-1 .text-head  {
+        text-align: justify;
+        margin-left: 20px;
+
+    }
+    .Assistance-1 .text-head span {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ff6100;
+        position: relative;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+
+    }
+    .Assistance-1 .text-head span::after {
+        position: absolute;
+        content: "-";
+        font-size: 14px;
+        color: #ff6100;
+        right: -10px;
+        bottom: 0px;
+        font-weight: 400;
+    }
+    .Assistance-1 .text-head span::before {
+        position: absolute;
+        content: "-";
+        font-size: 14px;
+        color: #ff6100;
+        left: -10px;
+        bottom: 0px;
+        font-weight: 400;
+    }
+    .Assistance-1 .text-head h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #18191d;
+        text-align: justify;
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+    .Assistance-1 .details p {
+        color: #565656;
+        text-align: justify;
+        line-height: 1.7;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .Assistance-1 .details ul {
+        list-style: none;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .Assistance-1 .details ul li {
+        font-size: 18px;
+        color: #18191d;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+    .Assistance-1 .details .icon  {
+        padding-right: 20px;
+        display: inline-block;
+    }
+    .Assistance-1 .details .icon span {
+    font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #ff6100;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.2;
+    }
+    .Assistance-1 .details button {
+        margin-top: 20px;
+    }
+    .Assistance-1 .details .btn-1 {
+        background-color: #000;
+        padding: 5px 18px;
+        color: #fff;
+        border: none;
+    }
+    .Assistance-2 {
+        background-image: url(../imges/about-imges/ab-us.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        position: relative;
+        z-index: -1;
+    }
+    .Assistance-2::after {
+        content: "";
+        width: 245px;
+        height: 600px;
+        position: absolute;
+        background-color: #ff6100;
+        mix-blend-mode: multiply;
+        transform: skew(-12deg);
+        right: 65px;
+        top: 0px;
+        z-index: 4;
+    }
+
+    .Assistance-2::before {
+        content: "";
+        width: 245px;
+        height: 600px;
+        position: absolute;
+        background-color: #ff6100;
+        mix-blend-mode: multiply;
+        transform: skew(-12deg);
+        right: 184px;
+        bottom: 0px;
+        z-index: 3;
+    }
+    .Assistance-2 .text h2 {
+        font-size: 80px;
+        line-height: 56px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: uppercase;
+        font-style: italic;
+    
+        position: absolute;
+        bottom: 0;
+        right: 12px;
+        z-index: 5;
+    }
+    .Assistance-2 .icon {
+        background-color: #fff;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 0px 20px 20px 0px;
+        position: absolute;
+        left: -10px;
+        bottom: 30px;
+    }
+    .Assistance-2 .icon span {
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    }
+    .Assistance-2 .date {
+        text-align: right;
+        position: absolute;
+        left: -300px;
+        bottom: 55px ;
+    }
+    .Assistance-2 .date h2 {
+        font-size: 100px;
+        color: #ff6100;
+        line-height: 70px;
+        font-weight: 900;
+        margin-bottom: 0px;
+    
+    }
+    .Assistance-2 .date span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18191d;
+    letter-spacing: 2px;
+    }
+
+
+.Assistance .Assistance-1 .Services h2 {
+    font-size: 100px;
+    line-height: 70px;
+    font-weight: 900;
+    color: #ff6100;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 3px;
+    opacity: 0.2;
+    margin-top: 80px;
+}
+.Assistance-2- {
+    background-color: #f4f5f7;
+    position: relative;
+    z-index: 12;
+}
+.Assistance-2- .img {
+    position: absolute;
+    bottom: 0;
+}
+.Assistance-2- img {
+width: 90%;
+}
+.Assistance-2-::after {
+    content: "";
+    width: 245px;
+    height: 600px;
+    position: absolute;
+    background-color: #ff6100;
+    mix-blend-mode: multiply;
+    transform: skew(-12deg);
+    right: 65px;
+    top: 0px;
+    z-index: -4;
+}
+
+.Assistance-2-::before {
+    content: "";
+    width: 245px;
+    height: 600px;
+    position: absolute;
+    background-color: #ff6100;
+    mix-blend-mode: multiply;
+    transform: skew(-12deg);
+    right: 184px;
+    bottom: 0px;
+    z-index: -3;
+}
+
+/*--------Assistance------end---*/
+
+/*--------Personal------start---*/
+
+.Personal {
+    margin-top: 100px;
+}
+.Personal .card-parent {
+display: flex;
+padding: 30px;
+justify-content: center;
+padding: 20 0px;
+
+}
+.Personal .card-parent .card {
+    background-color: #f4f5f7;
+    border: none ;
+    padding-right: 10px;
+    margin-right: 40px;
+    border-radius: 20px 20px 0px 0px;
+}
+.Personal .card-img {
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px 20px 30px;
+    background-color: #ff6100;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 20px 20px 0px 20px;
+
+}
+.Personal .card-img img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(103%);
+    width: 60%;
+}
+.Personal .card-text {
+    margin-left: 10px;
+    padding: 0 20px;
+}
+.Personal .card-text h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #18191d;
+
+    line-height: 1.2;
+}
+
+.Personal .card-text p {
+    color: #565656;
+
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+/*--------Personal------end---*/
+
+/*--------Adventure------start---*/
+
+
+.Adventure {
+    margin-top: 100px;
+    background-color: #101010;
+    padding: 100px 0;
+    height: 500px;
+    position: relative;
+}
+
+.Adventure .bg-img-3 {
+    background-image: url(../imges/home-imges//half-bg-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: right center;
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    right: 0px;
+    top: 0;
+    z-index: 5;
+}
+.Adventure .text-head {
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.Adventure .text-head span {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #ff6100;
+    position: relative;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+.Adventure .text-head span::before {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    left: 0px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Adventure .text-head span::after {
+    position: absolute;
+    content: "-";
+    font-size: 14px;
+    color: #ff6100;
+    right: -18px;
+    bottom: 0px;
+    font-weight: 400;
+}
+.Adventure .text-head h2 {
+font-size: 36px;
+font-weight: 700;
+color: #fff;
+font-family: "Work Sans", sans-serif;
+line-height: 1.2;
+margin-bottom: 60px;
+margin-top: 10px;
+}
+.Adventure .cards {
+    display: flex;
+    padding-left: 100px;
+    z-index: 12;
+    position: absolute;
+}
+.Adventure .cards .card {
+    background-color: transparent;
+}
+.Adventure .cards .card .p-card {
+    display: flex;
+}
+.Adventure .cards .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #fff;
+
+    line-height: 1.2;
+}
+.Adventure .cards .card p {
+    color: #999999;
+    font-size: 14px;
+
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.Adventure .cards .card-img {
+    width: 88px;
+    height: 88px;
+    margin-right: 18px;
+    background-color: #ff6100;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 20px 20px 0px 0px;
+} 
+.Adventure .cards img {
+    width: 60%;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(103%);
+}
+
+
+/*--------Adventure------end---*/
+
+
+/*--------Contact-Form ------start---*/
+
+.Contact-Form  {
+margin-top: 100px;
+}
+.Contact-Form  .get-in .text-img {
+position: relative;
+overflow: hidden;
+margin-top: 100px;
+}
+.Contact-Form  .get-in .text-img h2 {
+    font-size: 200px;
+    line-height: 160px;
+    display: inline-table;
+    color: #000;
+    margin: 0px;
+    font-weight: 700;
+
+}
+.Contact-Form  .get-in .text-img img {
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    width: 100%;
+    mix-blend-mode: lighten;
+    transform: translateY(-50%);
+}
+
+.Contact-Form  .get-in .deatiles {
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.Contact-Form  .get-in  ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.Contact-Form  .get-in  ul li {
+    font-size: 14px;
+    padding: 20px;
+    font-size: 14px;
+    color: #18191d;
+    cursor: auto;
+}
+
+.Contact-Form  .get-in  ul .l2 {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Contact-Form  .get-in  .icon span {
+    font-size: 44px;
+    color: #ff6100;
+    display: block;
+    padding-top: 30px;
+}
+.Contact-Form  .get-in .icons {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.Contact-Form  .get-in .head  {
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.Contact-Form  .get-in .head h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #18191d;
+}
+.Contact-Form  .get-in .icons span {
+    background-color: #ff6100;
+    color: #fff;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    border-radius: 10px 10px 0px 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: relative; 
+    overflow: hidden;
+    margin-left: 5px;
+}
+.Contact-Form .form {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 80px 0px 80px 60px;
+    background-color: #f6f6f5;
+    border-radius: 100px 0px 0px 100px;
+}
+.Contact-Form .form .text-haed {
+    margin-bottom: 50px;
+}
+.Contact-Form .form .text-haed h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+    line-height: 1.2;
+    color: #18191d
+
+}
+.Contact-Form .form .text-haed p {
+    color: #565656;
+
+    line-height: 1.7;
+    font-size: 18px;
+}
+.Contact-Form .form .forms .label {
+    margin-bottom: 1.5rem ;
+}
+.Contact-Form .form .forms .input-2{
+    height: 56px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    width: 100%;
+}
+.Contact-Form .form .forms .input{
+    height: 56px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    width: 100%;
+}
+.Contact-Form .form .forms .text-area {
+    padding-top: 15px;
+    height: 180px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    resize: none;
+    width: 100%;
+}
+.Contact-Form .form .btn-form {
+    padding: 15px 0;
+}
+.Contact-Form .form  .btn-1:hover {
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0,);
+    border-bottom: 2px solid #ff6100;
+}
+.Contact-Form .form .btn-1 {
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    background-color: #000;
+    font-family: "Work Sans", sans-serif;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 15px;
+    transition:all 0.5s;
+}
+
+/*--------Contact-Form ------end---*/
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .Our-Services .title {
+        left: 50px;
+        bottom: 50px;
+    }
+    
+    .Our-Services .title h2 {
+        font-size: 48px;
+    }
+    .Our-Services .title::after {
+        display: none !important;
+    }
+    .Assistance-1 .text-head  {
+        text-align: center;
+    }
+
+    .Our-Services .title::before,
+    .Our-Services .title::after {
+        width: 5px;
+        height: 35px;
+        transform: skew(-15deg) translateY(-50%);
+        top: 50%;
+    }
+
+    .Our-Services .title::before {
+        right: -25px;
+    }
+
+    .Our-Services .title::after {
+        right: -30px;
+    }
+
+    .Assistance .parent {
+        flex-direction: column;
+    }
+    .Assistance-1 .text-head span::before , .Assistance-1 .text-head span::after {
+        top: -2px;
+    }
+        .Assistance-1 {
+        position: relative;
+        z-index: 1;
+        padding: 0 15px;
+    }
+    .Assistance-2- {
+    display: none !important;
+
+}
+.Assistance .Assistance-1 .Services h2{
+    font-size: 70px !important;
+    text-align: center ;
+    
+}
+.Personal .card-parent .card {
+    text-align: center;
+}
+.Personal .card-img {
+    margin: 10px auto 20px;
+}
+
+    .Adventure {
+        height: auto;
+        padding: 80px 15px 50px;
+    }
+
+    .Adventure .bg-img-3 {
+        display: none;
+    }
+
+    .Adventure .text-head {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .Adventure .cards {
+        position: static;
+        flex-direction: column;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .Adventure .cards .card {
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 450px;
+    }
+    .Adventure .text-head {
+        padding-left: 0 !important;
+    }
+    .Adventure .cards {
+        padding-left: 0 !important;
+
+    }
+    .Adventure {
+        height: 90vh !important;
+    }
+}
